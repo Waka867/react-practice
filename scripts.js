@@ -23,5 +23,31 @@ class LikeButton extends React.Component {
 
 
 
+
+
+
+
+class HelloMessage extends React.Component {
+	render() {
+		return (
+			<div>
+				Hello {this.props.name}	
+			</div>
+		)
+	}
+}
+
+
+
+
+
+
 const domContainer = document.querySelector('#like_button_container');
 ReactDOM.render(e(LikeButton), domContainer);
+
+
+
+ReactDOM.render(
+	<HelloMessage name="Taylor" />,
+	document.getElementById('hello-example')
+);
