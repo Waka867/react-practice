@@ -2,10 +2,15 @@
 
 # dependencies
 myfirstreact/node_modules/
+projectreact/node_modules/
+/.pnp
+.pnp.js
 
 # testing
+/coverage
 
 # production
+/build
 
 # misc
 .DS_Store
