@@ -1,10 +1,13 @@
 import React from 'react';
+import Hello from './sayHello';
 
+// const counter = 0;
 
 function App() {
   return(
     <div>
-      <h1>Hello React!</h1>
+      <h1>This is the app component</h1>
+      <Hello />
     </div>
   );
 }
