@@ -1,13 +1,17 @@
 import React from 'react';
-import Hello from './sayHello';
+// import Hello from './sayHello';
+import Tweet from "./Tweet";
+
 
 // const counter = 0;
 
 function App() {
   return(
-    <div>
-      <h1>This is the app component</h1>
-      <Hello />
+    <div className="app">
+      <Tweet name="Dev Ed" message="Lorem ipsum" likes="221"/>
+      <Tweet name="Derp" message="Tweet content" likes="63"/>
+      <Tweet name="Waka" message="Here is some sample text" likes="54"/>
+      <Tweet name="Pwep" message="DERP DERP DERP DERP DERP" likes="13"/>
     </div>
   );
 }
